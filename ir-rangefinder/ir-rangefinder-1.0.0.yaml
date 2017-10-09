@@ -1,0 +1,15 @@
+name: IR Rangefinder
+description: Generic IR Rangefinder
+ports:
+    - number: 1
+      mode: power
+      direction: input
+      voltage: 3.3v
+    - number: 2
+      mode: analog
+      direction: output
+      voltage: 3.3v
+    - number: 3
+      mode: power
+      direction: bidirectional
+      voltage: 0v
